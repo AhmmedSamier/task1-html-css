@@ -1,0 +1,168 @@
+body
+{
+	text-transform: capitalize;
+	/*height: 1500px*/
+}
+
+.my-header ul
+{
+	overflow: hidden; 
+	height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+
+.my-header ul li span
+{
+	float: left;
+	margin: 20px 0px 0px 0px;
+}
+
+.my-header ul li img
+{
+	float: left;
+	height: 30px;
+	margin: 15px 7px 0px 40px;
+}
+
+.content
+{
+	background-image: url(../images/background.jpg); 
+	background-size: cover;
+	/*background-position: 25% 25%;*/
+	height: 10%;
+	margin: 0;
+	padding: 40px;
+	text-align: center;
+}
+
+.content h1
+{
+	/*clear: both;*/
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Oswald', serif;
+	width: 70%;
+	margin:0px auto;
+	padding-top: 40px; 
+}
+
+.content p
+{
+	color: #868C98;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 70px auto 0px auto;
+}
+
+.form
+{
+/*	background: #080;
+	width: 800px;
+*/	
+	height: 70px;
+	margin: 50px auto 40px;
+}
+
+.form input[type="text"]
+{
+	height: 40px;
+	width: 400px;
+	background-image: url('../images/search.png');
+	background-size: 50px;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+
+.form button
+{
+	color: #fff;
+	background-color: #EA4B1D;
+	border: none;
+	height: 65px;
+	padding: 5px 25px 5px 10px;
+}
+
+.cats
+{
+	color: #96B9E3;
+	height: auto;
+	margin-bottom: 30px; 
+	/*background-color: #080;*/
+}
+.cats ul
+{
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+/*.cats ul li
+{
+	display: inline;
+}*/
+
+.cats ul li span
+{
+	display: block;
+	float: left;
+	line-height: 75px;
+	margin-left: 10px;
+	margin-right: 40px;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+.cats ul li img
+{
+	display: block;
+	float: left;
+	height: 70px
+}
+
+.footer
+{
+	background-color: #D5DDE0;
+	height: 60px;
+	margin: 0;
+}
+
+.footer ul
+{
+	width: 95%;
+	margin: auto; 
+	padding: 0px;
+	overflow: hidden;
+}
+
+.footer ul li
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #748F96;
+	float: left;
+	/*margin: 10px auto;*/
+	padding: 20px 10px 20px;
+	width: 15%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.footer ul li.active,.footer ul li:hover
+{
+	color: #1AB943;
+	box-shadow: 0 5px 0 #72D18D inset;
+	background-color: #EBEEF3;
+}
+
+
+.fl-left
+{
+	float: left;
+}
+
+.list-style-none
+{
+	list-style: none;
+}
+
